@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'poppins', sans-serif */
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(./assets/netflix\ banner.jpg);
+  height: 100vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+}
+
+.main .box {
+  background-color: black;
+  opacity: 0.69;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  height: 62px;
+  justify-content: space-between;
+}
+
+.hindi {
+  color: white;
+  font-size: 1rem;
+  z-index: 10;
+}
+
+.hindi select {
+  background-color: grey;
+  border: 0.5px solid white;
+  border-radius: 4px;
+  padding: 6px 20px;
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(73, 69, 69, 0.194);
+}
+
+.opt {
+  color: black;
+  background-color: white;
+}
+
+.header2 {
+  display: flex;
+  gap: 20px;
+  margin-left: 10px;
+  width: 60%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav img {
+  width: 130px;
+  color: red;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: calc(100% - 62px);
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-size: 48px;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn {
+  padding: 7px 18px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 12px 50px;
+  border: none;
+  font-size: 1.4rem;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.btnTrans {
+  padding: 7px 22px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: white;
+  background-color: rgba(74, 66, 66, 0.151);
+  border: 0.5px solid white;
+  cursor: pointer;
+}
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email {
+  padding: 18px 92px 11px 19px;
+  border-radius: 4px;
+  color: rgba(240, 236, 236, 0.995);
+  border: 1px solid rgba(255, 251, 251, 0.381);
+  font-size: 1rem;
+  background-color: rgba(46, 44, 44, 0.4);
+}
+
+.separation {
+  background-color: gray;
+  height: 7px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  align-items: center;
+}
+
+.secImage img {
+  width: 34vw;
+  position: relative;
+  z-index: 10;
+  margin-top: 33px;
+  margin-left: 60px;
+}
+
+.secImage {
+  position: relative;
+}
+
+.secImage video {
+  position: absolute;
+  top: 100px;
+  left: 1px;
+  margin-top: 15px;
+  margin-left: 14px;
+  width: 610px;
+  height: 210px;
+}
+
+.tv {
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: "poppins", sans-serif;
+}
+
+.watch {
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.sectionPara {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "poppins", sans-serif;
+}
+
+.faq {
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 64vw;
+  margin: 34px auto;
+  cursor: pointer;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4rem;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  transition: all 0.5s ease-out;
+}
+
+.Footer {
+  color: rgb(207, 195, 195);
+  line-height: 36px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parentFooter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 32px 89px 35px 52px;
+  font-size: 0.9rem;
+}
+
+li {
+  text-decoration: underline;
+  list-style: none;
+  cursor: pointer;
+}
+
+.p1 {
+  margin-left: 210px;
+  margin-top: 60px;
+}
+
+.hindi2 {
+  color: white;
+  font-size: 1rem;
+  z-index: 10;
+  margin-left: 210px;
+  line-height: 48px;
+  padding-bottom: 60px;
+}
+
+.hindi2 select {
+  background-color: grey;
+  border: 0.5px solid white;
+  border-radius: 4px;
+  padding: 6px 20px;
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(75, 66, 66, 0.288);
+}
+
+.opt {
+  color: black;
+  background-color: white;
+}
+
+.end {
+  color: rgb(207, 195, 195);
+  font-size: 0.9rem;  
+}
+
+
+/* Media Query */
+@media (max-width: 1024px) {
+  nav img {
+    width: 6.5rem;
+  }
+  
+  
+}
+
+@media (max-width: 600px) {
+  .inputBox {
+    flex-wrap: wrap;
+  }
+
+  .inputBox .email {
+    width: 100%;
+  }
+
+  .btn-red {
+    padding: 12px 40px; 
+  }
+}
+
+@media (max-width: 960px) {
+
+  .first .sectionPara {
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+  .first .secImage video{
+   min-width: 20rem;
+  }
+
+  .first .secImage img {
+    min-width: 25rem;
+    width: 100%;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
